@@ -4,7 +4,7 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "762FCB8C-3618-42C3-93A2-D5C960610877"
+      "uuidString" : "0AE7C118-56E6-4285-8C11-D179F538E479"
     }
   ],
   "creatorBuild" : "34127",
@@ -77,8 +77,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
     },
     "\/dev\/js\/demo.js" : {
       "bF" : 0,
@@ -92,13 +92,13 @@
       "tS" : 0
     },
     "\/dev\/js\/scripts.js" : {
-      "bF" : 0,
+      "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/dev\/js\/scripts-min.js",
-      "oF" : 0,
+      "oAP" : "\/deploy\/js\/scripts-min.js",
+      "oF" : 2,
       "sC" : 3,
       "tS" : 0
     },
@@ -264,8 +264,8 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -309,12 +309,23 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/node_modules\/jquery\/dist\/jquery.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/node_modules\/jquery\/dist\/jquery-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
       "oAP" : "\/package-lock-min.json",
       "oF" : 0,
-      "oO" : 1,
+      "oO" : 0,
       "oS" : 1
     },
     "\/package.json" : {
@@ -322,7 +333,7 @@
       "oA" : 1,
       "oAP" : "\/package-min.json",
       "oF" : 0,
-      "oO" : 1,
+      "oO" : 0,
       "oS" : 1
     },
     "\/README.md" : {
@@ -352,10 +363,10 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 640047101.43286502,
+    "creationDate" : 622561353.46572006,
     "displayValue" : "Motion-GSAP",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-azure",
+    "iconImageName" : "brackets-verd",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
@@ -1113,7 +1124,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
@@ -1273,7 +1284,7 @@
       },
       "no-magic-numbers" : {
         "active" : 0,
-        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'enforceConst': false, 'detectObjects': false}"
+        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
         "active" : 0
@@ -1465,7 +1476,7 @@
       },
       "no-underscore-dangle" : {
         "active" : 0,
-        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false, 'allowFunctionParams': true}"
+        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
       },
       "no-unexpected-multiline" : {
         "active" : 1
@@ -1497,7 +1508,7 @@
       },
       "no-unused-expressions" : {
         "active" : 0,
-        "optionString" : "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false, 'enforceForJSX': false}"
+        "optionString" : "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
       },
       "no-unused-labels" : {
         "active" : 1
@@ -1685,7 +1696,7 @@
       },
       "sort-imports" : {
         "active" : 0,
-        "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single'], 'allowSeparatedGroups': false}"
+        "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
       },
       "sort-keys" : {
         "active" : 0,
@@ -2133,7 +2144,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "minifierStyle" : 0,
+      "minifierStyle" : 1,
       "outputStyle" : 0,
       "sourceMapStyle" : 0,
       "syntaxCheckerStyle" : 1,
@@ -2211,7 +2222,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "orderOutput" : 1,
+      "orderOutput" : 0,
       "outputStyle" : 1
     },
     "languageDefaultsKIT" : {
@@ -2240,7 +2251,7 @@
       "rewriteURLStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
-      "sourceMapStyle" : 0,
+      "sourceMapStyle" : 1,
       "strictImports" : 0,
       "strictUnits" : 0
     },
@@ -2296,7 +2307,7 @@
       "autoOutputPathStyle" : 0,
       "compileDebug" : 1,
       "htmlMinifierStyle" : 0,
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunCacheBuster" : 0
     },
     "languageDefaultsSASS" : {
